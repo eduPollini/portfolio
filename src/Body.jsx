@@ -22,7 +22,7 @@ function Body(){
     function enviarFormContato(e){
         e.preventDefault();
 
-        if(nome == '' || email == '' || mensagem == ''){
+        if(nome === '' || email === '' || mensagem === ''){
             alert('Preencha todos os campos')
             return;
         }
@@ -50,7 +50,7 @@ function Body(){
             <section className="banner">
                 <div className="conteudo-banner">
                     <div className="wrapper">
-                        <img src={fotoEduardo}/>
+                        <img alt='fotoEduardo' src={fotoEduardo}/>
                     </div>
                     <h1>Eduardo Pollini</h1>
                     <h2>Desenvolvedor Full Stack Jr.</h2>
@@ -72,11 +72,11 @@ fundação firme para meu crescimento profissional.</p>
                         <div className="item-conteudo-sobre-mim idiomas">
                             <h2>Idiomas</h2>
                             <div className="idioma">
-                                <img src={iconBrazil}/>
+                                <img alt='iconBrasil' src={iconBrazil}/>
                                 <span>Português Nativo</span>
                             </div>
                             <div className="idioma">
-                                <img src={iconUsa}/>
+                                <img alt='iconUSA' src={iconUsa}/>
                                 <span>Inglês Intermediário</span>
                             </div>
                         </div>
@@ -136,7 +136,7 @@ fundação firme para meu crescimento profissional.</p>
                             <Carousel.Item>
                                 <h2>Layout de Eventos</h2>
                                 <div className="slider-single-content">
-                                    <img src={projetoLayout}/>
+                                    <img alt='projetoLayout' src={projetoLayout}/>
                                     <span>
                                         <p>Layout de Eventos é uma aplicação web projetada para a empresa Sítio Refúgio dos Pássaros, localizada na cidade de Casa Branca - SP, proprietária de um salão de eventos.</p>
                                         <br />
@@ -147,7 +147,7 @@ fundação firme para meu crescimento profissional.</p>
                             <Carousel.Item>
                                 <h2>Layout de Eventos</h2>
                                 <div className="slider-single-content">
-                                    <img src={projetoLayout}/>
+                                    <img alt='projetoLayout' src={projetoLayout}/>
                                     <span>
                                         <p>Layout de Eventos é uma aplicação web projetada para a empresa Sítio Refúgio dos Pássaros, localizada na cidade de Casa Branca - SP, proprietária de um salão de eventos.</p>
                                         <br />
@@ -158,7 +158,7 @@ fundação firme para meu crescimento profissional.</p>
                             <Carousel.Item>
                                 <h2>Layout de Eventos</h2>
                                 <div className="slider-single-content">
-                                    <img src={projetoLayout}/>
+                                    <img alt='projetoLayout' src={projetoLayout}/>
                                     <span>
                                         <p>Layout de Eventos é uma aplicação web projetada para a empresa Sítio Refúgio dos Pássaros, localizada na cidade de Casa Branca - SP, proprietária de um salão de eventos.</p>
                                         <br />
