@@ -2,6 +2,8 @@ Body{
     background-color: #ccc;
 }
 
+/* ===== BANNER ===== */
+
 section.banner{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/banner-background.png");
     width: 100%;
@@ -42,6 +44,9 @@ section.banner{
     font-family: 'Silkscreen';
     font-size: 24px;
 }
+
+
+/* ===== SOBRE MIM ===== */
 
 section.sobre-mim{
     background-color: #eee;
@@ -120,6 +125,8 @@ section.sobre-mim{
     padding-left: 10px;
 }
 
+/* ===== MEUS PROJETOS ===== */
+
 section.meus-projetos{
     background-color: rgb(66, 44, 128);
     padding-bottom: 50px;
@@ -169,6 +176,23 @@ section.meus-projetos{
     text-align: left;
 }
 
+.carousel-item{
+    padding-bottom: 10px;
+}
+
+.carousel .visitar{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(66, 44, 128);
+    color: white;
+    font-size: 20px;
+}
+
 /****SLICK SLIDER****/
 
 .carousel-indicators [data-bs-target]{
@@ -189,6 +213,8 @@ section.meus-projetos{
 }
 
 /*FIM SLICK SLIDER*/
+
+/* ===== CONTATO ===== */
 
 section.contato{
     padding: 20px;
@@ -238,6 +264,8 @@ section.contato > .center{
     color: white;
     font-size: 20px;
 }
+
+/* ===== FOOTER ===== */
 
 footer{
     background-color: rgb(66, 44, 128);

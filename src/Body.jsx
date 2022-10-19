@@ -35,10 +35,14 @@ function Body(){
 
         emailjs.send('service_6rbtha5', 'template_sruwuim', templateParms, 'R4Ney1IgfdkZZwWaL')
         .then((response)=>{
-            console.log('Email Enviado', response.status, response.text)
+            console.log('E-mail Enviado - ', response.text.at, response.status);
+            alert('E-mail Enviado!');
             setNome('');
             setEmail('');
             setMensagem('');
+            document.querySelector('.form-nome').innerHTML = nome;
+            document.querySelector('.form-email').innerHTML = email;
+            document.querySelector('.form-mensagem').innerHTML = mensagem;
         }, (error) => {
             console.log('ERRO: ', error)
         })
@@ -132,39 +136,17 @@ fundação firme para meu crescimento profissional.</p>
                     <div className="slider-wrapper">
                         
                         <Carousel className='carousel' indicatorLabels={false}>
-                            
-                            <Carousel.Item>
-                                <h2>Layout de Eventos</h2>
+                            <Carousel.Item className='carousel-item'>
+                                <h2>Crie seu Layout SRP</h2>
                                 <div className="slider-single-content">
                                     <img alt='projetoLayout' src={projetoLayout}/>
                                     <span>
-                                        <p>Layout de Eventos é uma aplicação web projetada para a empresa Sítio Refúgio dos Pássaros, localizada na cidade de Casa Branca - SP, proprietária de um salão de eventos.</p>
+                                        <p>Crie seu Layout é uma aplicação web projetada para a empresa Sítio Refúgio dos Pássaros, localizada na cidade de Casa Branca - SP, proprietária de um salão de eventos.</p>
                                         <br />
                                         <p>A aplicação contém a planta baixa do local onde o usuário posicionará os itens decorativos, tais como mesas de convidados e mesas de buffet.</p>
                                     </span>
                                 </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <h2>Layout de Eventos</h2>
-                                <div className="slider-single-content">
-                                    <img alt='projetoLayout' src={projetoLayout}/>
-                                    <span>
-                                        <p>Layout de Eventos é uma aplicação web projetada para a empresa Sítio Refúgio dos Pássaros, localizada na cidade de Casa Branca - SP, proprietária de um salão de eventos.</p>
-                                        <br />
-                                        <p>A aplicação contém a planta baixa do local onde o usuário posicionará os itens decorativos, tais como mesas de convidados e mesas de buffet.</p>
-                                    </span>
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <h2>Layout de Eventos</h2>
-                                <div className="slider-single-content">
-                                    <img alt='projetoLayout' src={projetoLayout}/>
-                                    <span>
-                                        <p>Layout de Eventos é uma aplicação web projetada para a empresa Sítio Refúgio dos Pássaros, localizada na cidade de Casa Branca - SP, proprietária de um salão de eventos.</p>
-                                        <br />
-                                        <p>A aplicação contém a planta baixa do local onde o usuário posicionará os itens decorativos, tais como mesas de convidados e mesas de buffet.</p>
-                                    </span>
-                                </div>
+                                <a className='visitar' target='_black' href="https://crieseulayoutsrp.netlify.app">Visitar</a>
                             </Carousel.Item>
                         </Carousel>
 
