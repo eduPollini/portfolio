@@ -32,7 +32,7 @@ section.banner{
 }
 
 .wrapper img{
-    height: 100%;
+    width: 140px;
 }
 
 .conteudo-banner h1{
@@ -78,6 +78,7 @@ section.sobre-mim{
     border-radius: 10px;
     padding: 10px;
     display: block;
+    box-shadow: 0 0 6px 3px rgba(66, 44, 128, 0.5);
 }
 
 .item-conteudo-sobre-mim h2{
@@ -348,4 +349,8 @@ footer > .center{
         width: 100%;
         margin: 0;
     }
+}
+
+@media  screen and (max-height: 420px) {
+    
 }

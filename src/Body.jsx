@@ -61,7 +61,7 @@ function Body(){
                 </div>
             </section>
 
-            <section id='sobre-mim' className='sobre-mim'>
+            <section id='/sobre-mim' className='sobre-mim'>
                 <div className="center">
                     <h1>Sobre mim</h1>
                     <p>Estou a poucos passos da minha graduação no curso de Engenharia de Computação, portanto estou em

@@ -19,12 +19,16 @@
   font-weight: normal;
 }
 
+:root{
+  --purple: rgb(66, 44, 128)
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'RalewayRegular', sans-serif;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .center{
@@ -32,4 +36,12 @@
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+.hide{
+  display: none !important;
+}
+
+.btn{
+  border: none;
 }
