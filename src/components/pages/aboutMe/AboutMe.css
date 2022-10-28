@@ -1,0 +1,54 @@
+.about-me{
+    background-color: #160316;
+}
+
+.header-about-me{
+    background-image: url('../../../images/aboutMe-bg.png');
+    background-color: #361752;
+}
+
+.pages-text p{
+    margin: 0 20px;
+    text-shadow: 1px 1px 3px black;
+    font-size: 18px;
+}
+
+.about-me-box{
+    background-color: #361752;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(255, 100, 100, 0.3);
+    color: white;
+    padding: 20px 10px;
+}
+
+.about-me-box h2{
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.box-item{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.box-item svg{
+    font-size: 35px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.box-item img{
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

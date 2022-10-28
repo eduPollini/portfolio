@@ -3,7 +3,7 @@ import './Menu.css'
 
 import { MenuData } from './MenuData'
 
-import { Link } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 import { BiMenu } from 'react-icons/bi'
 import { MdClose } from 'react-icons/md'
 
@@ -12,10 +12,12 @@ function Menu() {
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
+    
+    const closeMenuHandler = () => setClick(false);
 
   return (
     <div className='menu'>
-        <Link className='name'><h1>Eduardo Pollini</h1></Link>
+        <Link to='/' className='name' ><h1>Eduardo Pollini</h1></Link>
         <nav className='nav'>
             <ul className='menu-nav'>
                 {MenuData.map((item, index) => {
@@ -34,7 +36,7 @@ function Menu() {
                     {MenuData.map((item, index) => {
                         return(
                             <li key={index}>
-                                <Link className={item.cName} to={item.src}>{item.icon}{item.title}</Link>
+                                <Link className={item.cName} to={item.src} onClick={closeMenuHandler}>{item.icon}{item.title}</Link>
                             </li>
                         )
                     })}

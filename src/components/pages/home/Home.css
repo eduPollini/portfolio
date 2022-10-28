@@ -1,0 +1,50 @@
+.home{
+    background-image: url(../../../images/banner-background.png);
+}
+
+.home > .center{
+    display: block;
+}
+
+.foto-wrapper{
+    width: 155px;
+    height: 180px;
+    background-color: var(--purple-rgba);
+    border-radius: 90px;
+    margin: auto;
+    border: 5px solid white;
+    box-shadow: 0 0 9px 2px var(--white-rgba);
+}
+
+.foto-wrapper img{
+    height: 100%;
+}
+
+.text-wrapper{
+    color: white;
+}
+
+.text-wrapper h1{
+    font-family: 'Silkscreen';
+    font-size: 50px;
+}
+
+.text-wrapper h3{
+    font-family: 'Silkscreen';
+    font-size: 24px;
+}
+
+@media screen and (max-height: 450px) {
+    .home > .center{
+        display: flex;
+    }
+    .foto-wrapper{
+        margin: 0;
+    }
+    .text-wrapper{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

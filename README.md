@@ -17,6 +17,18 @@ The objective here is to learn React.js in the process, expose what I'm learning
 
 ## Versions
 
+### v(1.0.4)
+
+#### Menu
+* 📦 Menu is now working;
+* ⬆️ Menu got a box-shadow;
+
+#### About Me
+* 📦 Section "About Me" was add to the app;
+* ❌ Require some CSS styles.
+
+<hr>
+
 ### v(1.0.3)
 
 #### Header

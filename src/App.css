@@ -20,7 +20,9 @@
 }
 
 :root{
-  --purple: rgb(66, 44, 128)
+  --purple: rgb(66, 44, 128);
+  --purple-rgba: rgba(66, 44, 128, 0.8);
+  --white-rgba: rgba(255, 255, 255, 0.5)
 }
 
 *{
@@ -36,6 +38,15 @@
   display: block;
   margin: 0 auto;
   text-align: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.centralizeY{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
 }
 
 .hide{
@@ -44,4 +55,30 @@
 
 .btn{
   border: none;
+}
+
+.pages{
+  width: 100%;
+  position: relative;
+  top: 60px;
+}
+
+.pages-text{
+  color: white;
+  height: calc(100vh - 60px);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pages-text h2{
+  font-size: 36px;
+  font-family: 'Fuzzy Bubbles';
+  font-weight: 700;
+  margin-bottom: 30px;
 }
