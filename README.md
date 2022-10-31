@@ -17,6 +17,16 @@ The objective here is to learn React.js in the process, expose what I'm learning
 
 ## Versions
 
+### v(1.1)
+
+#### Menu
+* ⬆️ Navigation now reset the window scroll to 0.
+
+#### Pages
+* 📦 New pages added to the app (MyProjects and Contact).
+
+<hr>
+
 ### v(1.0.4)
 
 #### Menu

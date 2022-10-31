@@ -15,7 +15,7 @@ export const AboutMeData = [
         [
             {
                 icon: <FaGraduationCap/>,
-                description: 'Cursando Bacharelado Engenharia de Computação - UNIARA',
+                description: 'Cursando Engenharia de Computação - UNIARA',
                 cName: 'box-item block'
             }
         ]

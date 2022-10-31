@@ -2,21 +2,23 @@
     background-image: url(../../../images/banner-background.png);
 }
 
-.home > .center{
-    display: block;
+.photo-content{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
 }
 
-.foto-wrapper{
+.photo-wrapper{
     width: 155px;
     height: 180px;
     background-color: var(--purple-rgba);
     border-radius: 90px;
-    margin: auto;
     border: 5px solid white;
     box-shadow: 0 0 9px 2px var(--white-rgba);
+    margin: auto;
 }
 
-.foto-wrapper img{
+.photo-wrapper img{
     height: 100%;
 }
 
@@ -36,9 +38,14 @@
 
 @media screen and (max-height: 450px) {
     .home > .center{
-        display: flex;
+        flex-direction: row;
     }
-    .foto-wrapper{
+    .photo-content{
+        width: 155px;
+        display: flex;
+        flex-direction: column;
+    }
+    .photo-wrapper{
         margin: 0;
     }
     .text-wrapper{

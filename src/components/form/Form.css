@@ -1,0 +1,54 @@
+section.contato{
+    padding: 20px;
+}
+
+section.contato > .center{
+    max-width: 800px;
+}
+
+.form-contato{
+    display: block;
+}
+
+.form-contato input[type=text],
+.form-contato input[type=email]{
+    width: 90%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    font-size: 20px;
+    box-shadow: 0 0 5px 3px rgba(190, 27, 190, 0.8);
+}
+
+.form-contato textarea{
+    width: 90%;
+    margin-top: 20px;
+    height: 120px;
+    border-radius: 20px;
+    padding: 10px;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    font-size: 20px;
+    box-shadow: 0 0 5px 3px rgba(190, 27, 190, 0.8);
+}
+
+.form-contato input[type=button]{
+    width: 90%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: var(--purple);
+    color: white;
+    font-size: 20px;
+}
+
+.form-contato input[type=button]:hover{
+    box-shadow: 0 0 5px 3px var(--purple-rgba);
+}

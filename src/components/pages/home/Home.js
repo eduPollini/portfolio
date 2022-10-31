@@ -7,8 +7,10 @@ export default function Home(){
     return(
         <div className='pages home pages-text'>
 			<div className='center '>
-				<div className='foto-wrapper'>
-					<img src={fotoEduardo}></img>
+				<div className='photo-content'>
+					<div className='photo-wrapper'>
+						<img src={fotoEduardo}></img>
+					</div>
 				</div>
 				<div className='text-wrapper'>
 					<h1>Eduardo Pollini</h1>

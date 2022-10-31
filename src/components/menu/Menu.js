@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react'
+import { Navigate, useNavigate } from "react-router-dom";
 import './Menu.css'
 
 import { MenuData } from './MenuData'
 
-import { Link, Navigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { BiMenu } from 'react-icons/bi'
 import { MdClose } from 'react-icons/md'
 
@@ -17,7 +18,7 @@ function Menu() {
 
   return (
     <div className='menu'>
-        <Link to='/' className='name' ><h1>Eduardo Pollini</h1></Link>
+        <Link to='/' className='name'><h1>Eduardo Pollini</h1></Link>
         <nav className='nav'>
             <ul className='menu-nav'>
                 {MenuData.map((item, index) => {

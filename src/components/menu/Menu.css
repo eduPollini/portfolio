@@ -34,7 +34,7 @@
     transform: translateY(-50%);
 }
 
-.nav{
+.menu .nav{
     display: block;
 }
 
@@ -125,7 +125,7 @@
 }
 
 @media screen and (max-width:768px) {
-    .nav{
+    .menu .nav{
         display: none;
     }
     .menu-mobile{
