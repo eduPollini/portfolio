@@ -17,6 +17,13 @@ The objective here is to learn React.js in the process, expose what I'm learning
 
 ## Versions
 
+### v(1.1.1)
+
+### MyProjects
+* New project added ("Crie Seu Layout").
+
+<br>
+
 ### v(1.1)
 
 #### Menu
