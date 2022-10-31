@@ -22,7 +22,7 @@ The objective here is to learn React.js in the process, expose what I'm learning
 ### MyProjects
 * New project added ("Crie Seu Layout").
 
-<br>
+<hr>
 
 ### v(1.1)
 
